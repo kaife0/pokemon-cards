@@ -1,0 +1,60 @@
+/* Navbar container styling */
+.navbar-container {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    border-bottom: 2px solid #dee2e6;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title styling */
+.title {
+  font-size: 2.5rem;
+  font-family: 'Arial', sans-serif;
+  color: #343a40;
+  text-align: center;
+  margin: 10px 0;
+  cursor: pointer; 
+}
+
+.title:hover {
+  color: #007bff; 
+}
+  
+  .title .badge {
+    background-color: #ffc107;
+    color: #212529;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .title .badge:hover {
+    background-color: #e0a800;
+    cursor: pointer;
+  }
+  
+  /* Note styling */
+  .note {
+    font-size: 1.2rem;
+    font-family: 'Verdana', sans-serif;
+    color: #495057;
+    text-align: center;
+    margin: 20px 0;
+    padding: 0 20px;
+    line-height: 1.5;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .title {
+      font-size: 2rem;
+    }
+  
+    .note {
+      font-size: 1rem;
+      margin: 10px;
+    }
+  }
+  
