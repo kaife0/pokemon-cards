@@ -7,7 +7,7 @@
 
 .search-bar input {
   width: 100%; /* Adjusted to full width */
-  max-width: 500px; /* Added max-width for larger screens */
+  max-width: 500px; 
   padding: 10px;
   font-size: 1rem;
   border: 1px solid #ddd;
